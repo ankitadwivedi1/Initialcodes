@@ -1,0 +1,57 @@
+#Simple quiz game World-o-mine
+print('Try to get as many Questions correct as possible..')
+totalquestions = 6
+Score = 0
+
+ans = input('1.What is the name of my First Startup?')
+
+if ans.lower()=='Phoenix':
+    print('Correct!')
+    Score+=1
+else:
+    print('incorrect')
+
+ans = input('2.What is the name of my first Camera?')
+
+if ans.lower()=='Kodak':
+    print('Correct!')
+    Score+=1
+else:
+    print('incorrect')
+
+ans = input('3.What is the name of my favourite software?')
+
+if ans.lower()=='Lightroom'
+    print('Correct!')
+    Score+=1
+else:
+    print('incorrect')
+
+ans = input('4.What is the forte of my photography?')
+if ans.lower()=='Landscape'
+    print('Correct!')
+    Score+=1
+else:
+    print('incorrect')
+
+ans = input('5.Whats my qualification for startup? ')
+if ans.lower()=='Digital marketing'
+    print('Correct!')
+    Score+=1
+else:
+    print('incorrect')
+
+ans = input('6.From where do i complete my qualification?')
+if ans.lower()=='Google'
+    print('Correct!')
+    Score+=1
+else:
+    print('incorrect')
+
+    print('thank you for playing,you got', score,"questions correct")
+    mark=(Score/totalquestions)*100
+
+    print("Mark:",mark)
+    print('Goodbye')
+
+
